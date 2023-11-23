@@ -5,7 +5,7 @@
 #include <time.h>
 #include <stdlib.h>
 
-/*int main()
+int main()
 {
     int a;
     int b;
@@ -64,9 +64,9 @@
         printf("\nYour result is: %lf", g / h);
       
     return 0;
-}*/
+}
 
-/*int main() {
+int main() {
 
     char grade = 'A';
 
@@ -78,9 +78,9 @@
         printf("You did good");
     }
 
-}*/
+}
 
-/*int main() {
+int main() {
 
     graphics(200, 200);
     line(10, 10, 100, 10);
@@ -89,9 +89,9 @@
     line(100, 10, 100, 100);
     wait();
 
-} */
+} 
 
-/*int main() {
+int main() {
 
     graphics(200, 200);
     circle(100, 100, 50);
@@ -101,9 +101,9 @@
     line(100, 300, 150, 350);
     wait();
 
-}*/
+}
 
-/*int main() {
+int main() {
 
     graphics(200, 200);
     circle(60, 100, 50);
@@ -112,9 +112,9 @@
     circle(330, 100, 50);
     wait();
 
-}*/
+}
 
-/*int main() {
+int main() {
 
     int x, y, r;
     x = 50;
@@ -124,9 +124,9 @@
     graphics(x, y);
     circle(x, y, r);
     wait();
-}*/
+}
 
-/*int main() {
+int main() {
 
     int d;
     d = 100;
@@ -149,9 +149,9 @@
     circle(400, y, 50);
 
     wait();
-}*/
+}
 
-/*int main() {
+int main() {
     int x, y, r;
     x = 0;
     y = 0;
@@ -167,47 +167,47 @@
     }
 
     wait();
-}*/
+}
 
 
 
-/*void obrazek(int a, int b, int c, int d) {
+void obrazek(int a, int b, int c, int d) {
     line(a, b, c+a, d);
     line(a, b+d, c, d);
     line(a, b+d, c+a, d+b);
     line(a+c, b, c+a, d+b);
-}*/
+}
 
-/*void obrazek(int x, int y, int r) {
+void obrazek(int x, int y, int r) {
     line(r, y, 2*r, y);
     line(x, r, x, 2*r);    //DUPA
     line(r, y, 2*r, y); 
     line(2*r, r , 2*r, 2*r);
-}*/
+}
 
-/*void obrazek(int x, int y) {
+void obrazek(int x, int y) {
     circle(x/2+100, y, 100);
     circle(x/2+200, y, 100);
     circle(x/2+300, y, 100);
     circle(x/2+400, y, 100);
-}*/
+}
 
-/*void obrazek(int x, int y, int h) {
+void obrazek(int x, int y, int h) {
     line(x-50, y+50, x+50, y+50);
     line(x, y+20, x, h);
     line(x-50, h+50, x, h);
     line(x, h, x+50, h+50);
     circle(x, y, 20);
-}*/
+}
 
-/*void obrazek(int a) {
+void obrazek(int a) {
     line(a, a, a+100, a);
     line(a, a, a, a+100);
     line(a, a+100, a+100, a+100);
     line(a+100, a, a+100, a+100);
-}*/
+}
 
-/*void obrazek(double a) {
+void obrazek(double a) {
     a = -20;
 
     while (a < 20) {
@@ -215,10 +215,10 @@
         a = a + 0.001;
     }
 
-}*/
+}
 
 
-/*void obrazek(double a) {
+void obrazek(double a) {
     a = 0;
 
     while (a < 2 * 3.14) {
@@ -227,9 +227,9 @@
     }
 
 }
-*/
 
-/*void obrazek(double a) {
+
+void obrazek(double a) {
     a = 0;
 
     while (a < 2 * 3.14) {
@@ -237,9 +237,9 @@
         a = a + 0.01;
     }
 
-}*/
+}
 
-/*void obrazek(double a, double r) {
+void obrazek(double a, double r) {
     a = 0;
     r = (cos(a) + 2) / 3;
     while (a < 2 * 3.14) {
@@ -247,15 +247,15 @@
         a = a + 0.1;
     }
 }
-*/
 
-/*void main() {
+
+void main() {
     graphics(500, 500);
     obrazek(100, 100);
     wait();
-}*/
+}
 
-/*int main(int a, int b, int c, double pierwszyx, double drugix, double Delta) {
+int main(int a, int b, int c, double pierwszyx, double drugix, double Delta) {
    
     printf("Program obliczajacy x z wzoru funkcji kwadratowej.\n");
     printf("Wpisz wspolczynniki a, b, i c:");
@@ -274,9 +274,9 @@
         printf("%lf", drugix);
     }
     
-}*/
+}
 
-/*int main() {
+int main() {
     int num, fact, count = 1, silnia = 1;
 
     printf("Enter any number to find factorial\n");
@@ -288,9 +288,9 @@
     }
     printf("Factorial of %d is %d", num, fact);
     return 0;
-}*/
+}
 
-/*int main()
+int main()
 {
     int n_0 = 0;
     int n_1 = 1;
@@ -303,9 +303,9 @@
         n_1 = n_c;
     }
     printf("%d", n_c);
-}*/
+}
 
-/*int main() {
+int main() {
     int sn;
     int an;
     int n;
@@ -325,9 +325,9 @@
 
     printf("Suma ciagu arytmetycznego jest rowna %d", sn);
 
-}*/
+}
 
-/*int main() {
+int main() {
     int sn;
     int n;
     int a;
@@ -344,10 +344,10 @@
     }
 
     printf("Suma ciagu geometrycznego jest rowna %d", sn);
-}*/
+}
 
 
-/*int main() {
+int main() {
     int a, b, c;
     int p;
     double P;
@@ -361,6 +361,6 @@
     P = sqrt(p * (p - a) * (p - b) * (p - c));
 
     printf("Pole trojkata to: %lf", P);
-}*/
+}
 
 
